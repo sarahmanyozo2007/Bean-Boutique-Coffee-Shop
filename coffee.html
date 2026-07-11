@@ -8,29 +8,67 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-<header class="header">
+    <header class="header">
 
-    <div class="logo">
-        <h2>Bean Boutique</h2>
+        <div class="logo">
+            <h2>Bean Boutique</h2>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="coffee.html">Coffee</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="events.html">Events</a>
+            <a href="cart.html">Cart</a>
+            <a href="offers.html">Offers</a>
+        </nav>
+
+    </header>
+
+    <section class="coffee-page">
+
+        <div class="coffee-header">
+            <h1>Our Coffee Selection</h1>
+
+    <p>Choose from our freshly roasted coffee blends.</p>
+
+    <div class="search-container">
+        <input type="text"
+               id="search"
+               placeholder="Search Coffee..."
+               onkeyup="searchCoffee()">
     </div>
 
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="coffee.html">Coffee</a>
-        <a href="equipment.html">Equipment</a>
-        <a href="events.html">Events</a>
-        <a href="cart.html">Cart</a>
-        <a href="offers.html">Offers</a>
-    </nav>
+    <h2 class="section-title">Ethiopian Coffee Collection</h2>
 
-</header>
+    <div class="product-grid">
 
-<section class="coffee-page">
+        <div class="product-card">
+            <img src="coffee/COFFEE-PICS(215).png" alt="Yirgacheffe">
+            <h3>Yirgacheffe</h3>
+            <p><strong>Price:</strong> K20,000</p>
+            <p>Floral and citrus flavour.</p>
+            <button onclick="addToCart('Yirgacheffe',20000)">Add to Cart</button>
+        </div>
 
-<div class="coffee-header">
+        <div class="product-card">
+            <img src="coffee/COFFEE-PICS(216).png" alt="Sidamo">
+            <h3>Sidamo</h3>
+            <p><strong>Price:</strong> K20,500</p>
+            <p>Sweet berry notes.</p>
+            <button onclick="addToCart('Sidamo',20500)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="coffee/COFFEE-PICS(217).png" alt="Limu">
+            <h3>Limu</h3>
+            <p><strong>Price:</strong> K21,000</p>
+            <p>Balanced and smooth.</p>
+            <button onclick="addToCart('Limu',21000)">Add to Cart</button>
+        </div>
+        
