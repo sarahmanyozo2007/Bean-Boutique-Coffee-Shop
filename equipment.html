@@ -2,93 +2,150 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brewing Equipment</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewing Equipment</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <main>
+    <main>
 
-    <header class="header">
+        <header class="header">
 
-      <div class="logo">
-        <h2>Bean Boutique</h2>
+            <div class="logo">
+                <h2>Bean Boutique</h2>
+            </div>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="coffee.html">Coffee</a>
+                <a href="equipment.html">Equipment</a>
+                <a href="events.html">Events</a>
+                <a href="cart.html">Cart</a>
+                <a href="offers.html">Offers</a>
+            </nav>
+
+        </header>
+
+        <section class="equipment-page">
+
+            <div class="equipment-header">
+                <h1>Brewing Equipment</h1>
+                <p>Find the perfect equipment to prepare your favourite coffee.</p>
+            </div>
+            <h2 class="category-title">Espresso Machines</h2>
+
+            <div class="equipment-wrapper">
+
+                <div class="equipment-card">
+
+                    <img src="coffee/COFFEE-PICS(34).png" alt="Barista Pro Espresso Machine">
+
+                    <h3>Barista Pro Espresso Machine</h3>
+
+                    <p><strong>Price:</strong> K450,000</p>
+
+                    <p>Professional espresso machine with rich coffee extraction.</p>
+
+                    <p><strong>Usage Tip:</strong> Clean after every use.</p>
+
+                    <button onclick="addToCart('Barista Pro Espresso Machine',450000)">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+                <div class="equipment-card">
+
+                    <img src="coffee/COFFEE-PICS(35).png" alt="CafeMaster Espresso Machine">
+
+                    <h3>CafeMaster Espresso Machine</h3>
+
+                    <p><strong>Price:</strong> K480,000</p>
+
+                    <p>Perfect for preparing cappuccino and latte.</p>
+
+                    <p><strong>Usage Tip:</strong> Use filtered water.</p>
+
+                    <button onclick="addToCart('CafeMaster Espresso Machine',480000)">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+                <div class="equipment-card">
+
+                    <img src="coffee/COFFEE-PICS(36).png" alt="Classic Brew Espresso Machine">
+
+                    <h3>Classic Brew Espresso Machine</h3>
+
+                    <p><strong>Price:</strong> K520,000</p>
+
+                    <p>Produces smooth espresso with excellent flavour.</p>
+
+                    <p><strong>Usage Tip:</strong> Warm the cup before brewing.</p>
+
+                    <button onclick="addToCart('Classic Brew Espresso Machine',520000)">
+                        Add to Cart
+                    </button>
+
+                </div>
+                <div class="equipment-card">
+
+          <img src="coffee/COFFEE-PICS(37).png" alt="Elite Espresso Maker">
+
+          <h3>Elite Espresso Maker</h3>
+
+          <p><strong>Price:</strong> K560,000</p>
+
+          <p>Stylish machine designed for home coffee lovers.</p>
+
+          <p><strong>Usage Tip:</strong> Descale monthly.</p>
+
+          <button onclick="addToCart('Elite Espresso Maker',560000)">
+            Add to Cart
+          </button>
+
+        </div>
+
       </div>
-
-      <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="coffee.html">Coffee</a>
-        <a href="equipment.html">Equipment</a>
-        <a href="events.html">Events</a>
-        <a href="cart.html">Cart</a>
-        <a href="offers.html">Offers</a>
-      </nav>
-
-    </header>
-
-    <section class="equipment-page">
-
-      <div class="equipment-header">
-        <h1>Brewing Equipment</h1>
-        <p>Find the perfect equipment to prepare your favourite coffee.</p>
-      </div>
-      <h2 class="category-title">Espresso Machines</h2>
+      
+      <h2 class="section-title">Electric Kettle Collection</h2>
 
       <div class="equipment-wrapper">
 
         <div class="equipment-card">
-
-          <img src="coffee/COFFEE-PICS(34).png" alt="Barista Pro Espresso Machine">
-
-          <h3>Barista Pro Espresso Machine</h3>
-
-          <p><strong>Price:</strong> K450,000</p>
-
-          <p>Professional espresso machine with rich coffee extraction.</p>
-
-          <p><strong>Usage Tip:</strong> Clean after every use.</p>
-
-          <button onclick="addToCart('Barista Pro Espresso Machine',450000)">
-            Add to Cart
-          </button>
-
+          <img src="coffee/COFFEE-PICS(49).png" alt="Philips Daily Kettle">
+          <h3>Philips Daily Kettle</h3>
+          <p><strong>Price:</strong> K48,000</p>
+          <p>Fast boiling electric kettle.</p>
+          <button onclick="addToCart('Philips Daily Kettle',48000)">Add to Cart</button>
         </div>
 
         <div class="equipment-card">
-
-          <img src="coffee/COFFEE-PICS(35).png" alt="CafeMaster Espresso Machine">
-
-          <h3>CafeMaster Espresso Machine</h3>
-
-          <p><strong>Price:</strong> K480,000</p>
-
-          <p>Perfect for preparing cappuccino and latte.</p>
-
-          <p><strong>Usage Tip:</strong> Use filtered water.</p>
-
-          <button onclick="addToCart('CafeMaster Espresso Machine',480000)">
-            Add to Cart
-          </button>
-
+          <img src="coffee/COFFEE-PICS(50).png" alt="Russell Hobbs Inspire">
+          <h3>Russell Hobbs Inspire</h3>
+          <p><strong>Price:</strong> K52,000</p>
+          <p>Modern design with rapid boil.</p>
+          <button onclick="addToCart('Russell Hobbs Inspire',52000)">Add to Cart</button>
+        </div>
+        <div class="equipment-card">
+          <img src="coffee/COFFEE-PICS(51).png" alt="Kenwood Scene">
+          <h3>Kenwood Scene</h3>
+          <p><strong>Price:</strong> K50,000</p>
+          <p>Stylish kettle for everyday use.</p>
+          <button onclick="addToCart('Kenwood Scene',50000)">Add to Cart</button>
         </div>
 
         <div class="equipment-card">
-
-          <img src="coffee/COFFEE-PICS(36).png" alt="Classic Brew Espresso Machine">
-
-          <h3>Classic Brew Espresso Machine</h3>
-
-          <p><strong>Price:</strong> K520,000</p>
-
-          <p>Produces smooth espresso with excellent flavour.</p>
-
-          <p><strong>Usage Tip:</strong> Warm the cup before brewing.</p>
-
-          <button onclick="addToCart('Classic Brew Espresso Machine',520000)">
-            Add to Cart
-          </button>
-
+          <img src="coffee/COFFEE-PICS(52).png" alt="Bosch ComfortLine">
+          <h3>Bosch ComfortLine</h3>
+          <p><strong>Price:</strong> K56,000</p>
+          <p>Energy-saving electric kettle.</p>
+          <button onclick="addToCart('Bosch ComfortLine',56000)">Add to Cart</button>
         </div>
+
+      </div>
+      
