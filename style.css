@@ -99,3 +99,48 @@ services {
 .services h2 {
   margin-bottom: 30px;
 }
+.service-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 280px;
+  background: white;
+  color: black;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+}
+
+.service-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  margin: 15px;
+}
+
+.service-card p {
+  margin: 10px;
+}
+
+.service-card button {
+  margin: 15px;
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #8b5e3c;
+  color: white;
+  cursor: pointer;
+}
+
