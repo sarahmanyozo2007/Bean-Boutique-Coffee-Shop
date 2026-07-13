@@ -202,6 +202,80 @@ services {
     text-align:center;
     animation:popup .5s;
 }
+@keyframes popup{
+
+from{
+transform:scale(.6);
+opacity:0;
+}
+
+to{
+transform:scale(1);
+opacity:1;
+}
+
+}
+
+.close{
+    position:absolute;
+    top:10px;
+    right:15px;
+    font-size:30px;
+    cursor:pointer;
+    color:#8b5e3c;
+}
+
+.close:hover{
+    color:red;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #3d2518;
+  margin-top: 40px;
+}
+.footer {
+  background: #3d2518;
+  color: white;
+  text-align: left;
+  padding: 25px;
+  margin-top: 40px;
+}
+.footer {
+  background: #1c0e07;
+  color: white;
+  text-align: left;
+  padding: 35px 20px;
+  margin-top: 50px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 8px 0;
+}
+
+.contact-info p {
+  margin: 12px 0;
+}
+
+.contact-info i {
+  color: #d9a066;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #d9a066;
+}
+
 
 
 
